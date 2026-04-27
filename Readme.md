@@ -36,6 +36,7 @@ It is not just a chatbot — it is a **mini research automation system**.
 ---
 
 ## 🧠 System Architecture
+```bash
 User Input (Topic)
 ↓
 🔍 Search Agent
@@ -47,7 +48,7 @@ User Input (Topic)
 🧠 Critic Agent (Evaluation)
 ↓
 Final Output (Report + Feedback)
-
+```
 
 All agents are powered by LLMs and orchestrated using a structured pipeline.
 
@@ -109,11 +110,11 @@ pip install -r requirements.txt
 ### ▶️ Run the Project
 
 ### Run via CLI
-bash
+```bash
 python pipeline.py
 Run Web UI (Recommended)
 streamlit run app.py
-
+```
 ## 🖥️ How It Works
 
 1. Enter a research topic  
