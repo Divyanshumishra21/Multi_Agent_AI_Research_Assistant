@@ -54,17 +54,20 @@ All agents are powered by LLMs and orchestrated using a structured pipeline.
 ---
 
 ## 📂 Project Structure
+
+```bash
+
 MULTI_AGENT_SYSTEM/
 │
-├── agents.py # LLM setup & agent definitions
-├── tools.py # Web search & scraping tools
-├── pipeline.py # Core multi-agent pipeline logic
-├── app.py # Streamlit UI
+├── agents.py        # LLM setup & agent definitions
+├── tools.py         # Web search & scraping tools
+├── pipeline.py      # Core multi-agent pipeline logic
+├── app.py           # Streamlit UI
 ├── requirements.txt
-├── .env # API keys (ignored in Git)
-├── venv/ # Virtual environment (ignored)
-└── pycache/ # Python cache (ignored)
-
+├── .env             # API keys (ignored in Git)
+├── venv/            # Virtual environment (ignored)
+└── __pycache__/     # Python cache (ignored)
+```
 
 ---
 
@@ -88,24 +91,24 @@ TAVILY_API_KEY=your_tavily_api_key
 
 ## 📦 Installation
 
-bash
-# Clone repository
+```bash
+### Clone repository
 git clone https://github.com/Divyanshumishra21/Multi_Agent_AI_Research_Assistant.git
 cd Multi_Agent_AI_Research_Assistant
 
-# Create virtual environment
+### Create virtual environment
 python -m venv venv
 
-# Activate environment
+### Activate environment
 venv\Scripts\activate      # Windows
 # source venv/bin/activate # Mac/Linux
 
-# Install dependencies
+### Install dependencies
 pip install -r requirements.txt
+```
+### ▶️ Run the Project
 
-# ▶️ Run the Project
-
-## Run via CLI
+### Run via CLI
 bash
 python pipeline.py
 Run Web UI (Recommended)
