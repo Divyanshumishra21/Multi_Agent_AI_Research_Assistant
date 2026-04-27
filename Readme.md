@@ -88,10 +88,10 @@ TAVILY_API_KEY=your_tavily_api_key
 
 ## 📦 Installation
 
-```bash
+bash
 # Clone repository
-git clone https://github.com/your-username/researchmind.git
-cd researchmind
+git clone https://github.com/Divyanshumishra21/Multi_Agent_AI_Research_Assistant.git
+cd Multi_Agent_AI_Research_Assistant
 
 # Create virtual environment
 python -m venv venv
@@ -106,7 +106,7 @@ pip install -r requirements.txt
 # ▶️ Run the Project
 
 ## Run via CLI
-```bash
+bash
 python pipeline.py
 Run Web UI (Recommended)
 streamlit run app.py
